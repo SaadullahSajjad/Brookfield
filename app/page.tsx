@@ -1,5 +1,5 @@
-import ContactPopup from "@/components/ContactPopup";
 import Header from "@/components/Header";
+import Planarea from "@/components/PlanArea";
 import Topbar from "@/components/Topbar";
 
 
@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       <Topbar></Topbar>
       <Header></Header>
-      <ContactPopup></ContactPopup>
+      <Planarea></Planarea>
     </div>
   );
 }

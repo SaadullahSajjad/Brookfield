@@ -8,7 +8,41 @@
   box-sizing: border-box;
 }
 
+
+/*=== webfonts ===*/
+
+@font-face {
+  font-family: "Sofia-Pro";
+  src: url("../public/webfonts/Sofia-Pro-Light-Az.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Sofia-Pro";
+  src: url("../public/webfonts/Sofia-Pro-Regular-Az.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Sofia-Pro";
+  src: url("../public/webfonts/Sofia-Pro-Medium-Az.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Sofia-Pro";
+  src: url("../public/webfonts/Sofia-Pro-Semi-Bold-Az.otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Sofia-Pro";
+  src: url("../public/webfonts/Sofia-Pro-Bold-Az.otf");
+  font-weight: 700;
+}
+
 body {
   margin: 0;
   padding: 0;
+  font-family: "Sofia-Pro";
 }
